@@ -5,7 +5,6 @@ const guessButton = document.querySelector("#guessBtn");
 let guessNumber = document.querySelector("#computerRsp");
 let Attempts = document.querySelector("#totalAttempt");
 const resetButton = document.querySelector("#resetBtn");
-debugger
 guessButton.addEventListener("click", function () {
   AttemptCount = AttemptCount + 1;
   Attempts.innerText = "attempts:" + AttemptCount;
@@ -35,3 +34,4 @@ resetButton.addEventListener("click", function () {
   guessNumber.innerText = "start Guessing";
   guessNumber.style.color = "black";
 });
+
